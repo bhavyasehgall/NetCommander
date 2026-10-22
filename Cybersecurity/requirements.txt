@@ -1,0 +1,25 @@
+# NetCommander — Requirements
+# Author: Bhavya Sehgal
+# Install using: pip install -r requirements.txt
+
+# GUI framework
+PyQt6>=6.4.0
+
+# ------------------------------------------------------------
+# System tools used (must be installed separately — NOT pip)
+# ------------------------------------------------------------
+# nmap          — port scanning  (https://nmap.org/download.html)
+#                 Windows: install nmap and add to PATH
+#                 Linux  : sudo apt install nmap
+#
+# iptables      — firewall backend (Linux only, pre-installed)
+# netsh         — firewall backend (Windows only, built-in)
+# systemctl     — service manager  (Linux only, built-in)
+# sc.exe        — service manager  (Windows only, built-in)
+# ipconfig      — interface info   (Windows, built-in)
+# ip / ifconfig — interface info   (Linux, pre-installed)
+# netstat / ss  — connections      (pre-installed on all platforms)
+# tracert       — traceroute       (Windows, built-in)
+# traceroute    — traceroute       (Linux: sudo apt install traceroute)
+# nslookup      — DNS lookup       (pre-installed on all platforms)
+# dig           — DNS lookup       (Linux: sudo apt install dnsutils)
